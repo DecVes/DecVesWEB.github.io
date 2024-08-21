@@ -28,6 +28,10 @@
    resize2 3s 10s infinite;
 }
 
+.Videos{
+    transform: translateX(400px);
+}
+
 .box1 {
     transform: translateY(-500px);
     background-color: grey;
