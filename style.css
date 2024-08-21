@@ -1,0 +1,79 @@
+.Git1{
+    transform: scale(0);
+    margin-right: 1700px; margin-top: -100px; margin-bottom: 35px;
+    animation: resize1 3s 2s forwards;
+}
+
+.Git2{
+    transform: scale(0);
+    margin-right: 1700px; background-color: white; font-size: 40px;
+    animation: 
+    resize1 3s 4s forwards,
+    resize2 3s 10s infinite;
+
+}
+
+.Git3{
+    transform: scale(0);
+    margin-right: 1300px; margin-top: -105.2px; margin-bottom: 35px;
+    animation: resize1 3s 6s forwards;
+}
+
+.Git4{
+    transform: scale(0);
+    margin-right: 1300px; background-color: white; font-size: 40px; color: red;
+
+    animation:
+    resize1 3s 8s forwards,
+   resize2 3s 10s infinite;
+}
+
+.box1 {
+    transform: translateY(-500px);
+    background-color: grey;
+    width: 1920px;
+    height: 200px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    animation-duration: 2s;
+    animation-name: Move3;
+    animation-fill-mode: forwards;
+}
+
+.box2 {
+    transform: translateY(1000px);
+    background-color: grey;
+    width: 500px;
+    height: 700px;
+    text-align: center;
+    margin-left: 1450px;
+    animation-duration: 2s;
+    animation-name: Move2;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
+.box3 {
+    background-color: rgb(73, 73, 73);
+    width: 1420px;
+    height: 700px;
+    text-align: center;
+    margin-top: -716px;
+    margin-left: 10px;
+    animation-duration: 3s;
+    animation-name: Move1;
+}
+
+body{
+    overflow: hidden;
+;
+    background-image: linear-gradient(45deg,rgb(43, 43, 43),rgb(90, 90, 90),rgb(0, 0, 0),rgb(43, 43, 43),rgb(90, 90, 90),rgb(0, 0, 0));
+    min-height: 100vh;
+    min-width: 100vw;
+    background-size: 300% 300%;
+
+    animation-name: Gradient;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
